@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
 	<script src="app.js"></script>
 	<link rel = "stylesheet" type="text/css" href="style.css">
 	<title>Info 2180 Lab 6</title>
@@ -11,9 +12,14 @@
 		<h1>Avengers Character Search</h1>
 	</header>
 
-	<div class = "buttns">
-		<button class="searchButton">Search</button>
-	</div>	
+	<form>
+		<input id="searchBar" type="text" name="superhero" placeholder="eg.Captain America or Steven Rogers" />
+		<button id="searchButton">Search</button>
+	</form>	
+
+	<h2>Result</h2>	
+
+	<div id = "result"> </div>
 
 
 </body>
